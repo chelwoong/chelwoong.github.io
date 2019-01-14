@@ -21,6 +21,9 @@ comments: true
 
 ```
 code test
+#func test2() {
+
+}
 ```
 
 {% highlight css %}
