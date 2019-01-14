@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Swift] guard vs if
+title: Swift - guard vs if
 date: 2019-01-14
 excerpt: "when use to guard or if on swift"
 tag:

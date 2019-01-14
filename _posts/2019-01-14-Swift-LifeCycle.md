@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Swift] LifeCycle
+title: Swift - LifeCycle
 date: 2019-01-14
 excerpt: "LifeCycle on swift"
 tag:

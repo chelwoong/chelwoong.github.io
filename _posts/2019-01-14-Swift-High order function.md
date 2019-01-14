@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Swift] 고차함수 (High order function)
+title: Swift - 고차함수 (High order function)
 date: 2019-01-14
 excerpt: "What is high order function?"
 tag:
