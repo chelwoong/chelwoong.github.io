@@ -26,7 +26,7 @@ container.map(f(x))	// 컨테이너의 map 메서드 호출
 -> return f( 컨테이너의 각 요소 ) // 새로운 컨테이너
 
 각 원소들을 2씩 곱해주는 예를 들어보자.
-{% highlight html %}
+~~~ swift
 let num: [Int] = [0, 1, 2, 3, 4]
 var doubleNums: [Int] = [Int]()
 
@@ -45,7 +45,7 @@ print(doubleNums)	// [0, 2, 4, 6, 8]
 // map 클로저 축약
 doubleNums = num.map { $0 * 2 }
 print(doubleNums)	// [0, 2, 4, 6, 8]
-{% endhighlight %}
+~~~
 
 
 ### filter
@@ -54,7 +54,7 @@ container 내부의 값을 걸러서 추출
 
 마찬가지로 예를 통해 살펴보자.
 
-{% highlight html %}
+~~~ swift
 let num: [Int] = [0, 1, 2, 3, 4]
 var evenNums: [Int] = [Int]()
 
@@ -74,7 +74,7 @@ print(doubleNums)	// [0, 2, 4]
 // filter 클로저 축약
 evenNums = num.filter { $0 % 2 == 0 }
 print(doubleNums)	// [0, 2, 4]
-{% endhighlight %}
+~~~
 
 ### reduce 
 
@@ -83,7 +83,7 @@ container 내부의 콘텐츠를 하나로 통합
 
 예를 들면,
 
-{% highlight html %}
+~~~ swift
 let nums: [Int] = [2, 5, 10]
 var sum: Int = 0
 
@@ -103,6 +103,6 @@ print(sum) 	// 17
 
 // reduce 축약
 let sum: Int = nums.reduce(3) {  $0 + $1 }
-{% endhighlight %}
+~~~
 
 print(sum)	// 20, 초기값을 3으로 줬음
