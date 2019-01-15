@@ -10,7 +10,7 @@ comments: true
 ---
 
 
-## 고차함수 ( High Order function)
+# 고차함수 ( High Order function)
 
 ### 고차함수란?
 
@@ -18,7 +18,8 @@ comments: true
 - 함수를 결과로 반환하는 함수 
 - Swift에서 대표적인 예로는 map, reduce, filter 등이 있다.
 
-**map**
+### map
+
 콜렉션 내부의 기존 데이터를 변형하여 새로운 콜렉션 생성
 다시말해  array, dictionary 등의 요소들을 함수에 넣어서 요소마다 적용시켜준다.
 container.map(f(x))	// 컨테이너의 map 메서드 호출
@@ -47,10 +48,12 @@ print(doubleNums)	// [0, 2, 4, 6, 8]
 {% endhighlight %}
 
 
-**filter**
+### filter
+
 container 내부의 값을 걸러서 추출
 
 마찬가지로 예를 통해 살펴보자.
+
 {% highlight html %}
 let num: [Int] = [0, 1, 2, 3, 4]
 var evenNums: [Int] = [Int]()
@@ -73,11 +76,13 @@ evenNums = num.filter { $0 % 2 == 0 }
 print(doubleNums)	// [0, 2, 4]
 {% endhighlight %}
 
-**reduce**
+### reduce 
+
 container 내부의 콘텐츠를 하나로 통합
 모든 요소를 어떤 규칙을 가지고 하나로 합쳐준다.
 
 예를 들면,
+
 {% highlight html %}
 let nums: [Int] = [2, 5, 10]
 var sum: Int = 0
@@ -99,4 +104,5 @@ print(sum) 	// 17
 // reduce 축약
 let sum: Int = nums.reduce(3) {  $0 + $1 }
 {% endhighlight %}
+
 print(sum)	// 20, 초기값을 3으로 줬음
