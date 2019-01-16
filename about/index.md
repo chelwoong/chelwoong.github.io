@@ -28,6 +28,11 @@ _iOS_
 - Personal Develop (부스트캠프 3기 사전과제)
 - Swift
 
+**[WoongTalk](https://github.com/chelwoong/WoongTalk)** (2018.11)
+- 채팅 앱
+- Personal Develop
+- Swift, Snapkit, Object Mapper, Firebase
+
 _Other_
 
 **[Lost-Found](https://github.com/merturl/Lost-Found)** (2017.12)
