@@ -22,10 +22,13 @@ comments: true
 
 콜렉션 내부의 기존 데이터를 변형하여 새로운 콜렉션 생성
 다시말해  array, dictionary 등의 요소들을 함수에 넣어서 요소마다 적용시켜준다.
-container.map(f(x))	// 컨테이너의 map 메서드 호출
+
+container.map(f(x))	// 컨테이너의 map 메서드 호출
 -> return f( 컨테이너의 각 요소 ) // 새로운 컨테이너
 
 각 원소들을 2씩 곱해주는 예를 들어보자.
+
+
 ~~~ swift
 let num: [Int] = [0, 1, 2, 3, 4]
 var doubleNums: [Int] = [Int]()
@@ -103,6 +106,5 @@ print(sum) 	// 17
 
 // reduce 축약
 let sum: Int = nums.reduce(3) {  $0 + $1 }
-~~~
-
 print(sum)	// 20, 초기값을 3으로 줬음
+~~~

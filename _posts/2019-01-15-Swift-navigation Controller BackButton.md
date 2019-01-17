@@ -11,7 +11,7 @@ comments: true
 
 ## navigation Controller BackButton 수정하기
 
-navigationController에서 navigation bar의 ==`< Title`== 을 수정하고 싶을 때가 있다. 
+navigationController에서 navigation bar의 `< Title` 을 수정하고 싶을 때가 있다. 
 
 ![backbuttonTitle](https://lh3.googleusercontent.com/1Q5XtayaKOHr5V8pukvQlpdobUjkiMJuwta3trQWkAm-TI2uM27DpW5iMp7FtmzKNfwHKNSZujQJ_2iSTRA7Pq0SFeEKjVJ4F16ODgEX8mgSW7jX6qiXkximexOJJIraKsQFiVmUB3zEQhlQUDHAmOPJi-n6U4utUty4L9ZvJxp-f4fn1RuEpO3ehn80eUFt-0aqO3YSZcXAbSoT3s_kWYKB9InZioXSIP26yplhExfaBzyZTSWLUTYJ1tyV3vbDCH5tLeX1F7Htc5hAazvq42kjDCrhtB2TIcXClVs3_Mn6CaWmR0ptSu1-0NsyPcuFYSIEqpoJtANVuD6G93gQwbEp9N56SOMpBYx3G-RTKR9cDDAeqP0jjOkkSKL5XhHMoMBA_RMWIlrVdqjJkpoKUhGGkgyzbdPnvZXry8IT06kZCD6X2WUwPS8fIdyGUrteDZNPVrpgn-n6J5lXiZ_lLXsSJ5pnyQkqmoN6aKztC4spuUR24RYMfKyzu7-NrLAR8MzEfoFFdPHfTScF2LEgwULN7w5JhXCcg9BjhlUyzuQE_UotSD4bUecx-VIxu9MvcrdDeV_r_omXJtz00qF4BwTB25_UY2A0VzE5tNIh4yg6442Ig-0u2KH_bnEKEaORgTEbXJYIfQpQhZj--wHHlf-h=w444-h146-no)
 
@@ -19,7 +19,7 @@ navigationController에서 navigation bar의 ==`< Title`== 을 수정하고 싶�
 
 ~~~ swift
 let backItem = UIBarButtonItem()
-backItem.title =` `"Back"
+backItem.title ="Back"
 navigationItem.backBarButtonItem = backItem
 ~~~
 

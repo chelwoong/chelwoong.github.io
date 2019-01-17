@@ -43,7 +43,9 @@ pizzaJoint.components(separatedBy: " ")[1]
 
 **다른 String Method**
 func hasPrefix(String) -> Bool
+
 func hasSuffix(String) -> Bool
+
 var localizedCapitalized/Lowercase/Uppercase: String
 
 func replaceSubrange(Range<String.index>, with: collection with character)
