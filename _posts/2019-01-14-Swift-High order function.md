@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Swift - 고차함수 (High order function)
+title: Swift -High order function
 date: 2019-01-14
-excerpt: "What is high order function?"
+excerpt: "고차함수 정리"
 tag:
 - ios
 - swift

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Vim - 필수 명령어 정리
+title: Vim-Required Commands
 date: 2019-01-15
-excerpt: "vim 필수 명렁어"
+excerpt: "Vim 필수 명렁어 정리"
 tag:
 - vim
 - Development Tips

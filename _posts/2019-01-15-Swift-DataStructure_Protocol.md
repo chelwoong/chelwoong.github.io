@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Swift - 자료구조: Protocol
+title: Swift - DataStructure_Protocol
 date: 2019-01-15
 excerpt: "Swift 자료구조: Protocol"
 tag:
