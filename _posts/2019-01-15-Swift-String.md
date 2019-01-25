@@ -12,7 +12,8 @@ comments: true
 # String
 
 >공부하면서 익힌 내용을 정리하고 있습니다. 아직 부족한 부분이나 잘못된 부분이 있을 수 있으니, 있다면 댓글로 피드백 부탁드립니다.
-스탠포드의 [CS193p](https://www.edwith.org/swiftapp/joinLectures/13694) 강의를 참고해 작성하였습니다.
+
+### String ?
 
 string은 unicode로 구성되어 있다. 유니코드는 전세계 모든 언어를 나타낼 수 있는데, 바이트 단위로 데이터를 나타낸다.
 
@@ -41,6 +42,44 @@ if let firstSpace = pizzaJoint.index(of: " ") {	// space가 없을 수도 있어
 pizzaJoint.components(separatedBy: " ")[1]
 ~~~
 
+### print String without newline
+
+print()를 통해서 문자열을 출력할 때 줄바꿈을 하지 않고 출력하고 싶을 때가 있다. 
+예를들어, "Hello" 라는 글자를 `H e l l o` 와 같이 출력하고 싶다면 어떻게 해야할까?
+
+우선 "Hello"을 한글자씩 출력해보도록 하자.
+
+~~~ swift
+let word = "Hello"
+for value in word {
+	print(value)
+}
+
+/* 
+H
+e
+l
+l
+o
+*/
+~~~
+
+결과는 다음과 같이 한 줄에 한 글자씩 출력된다. Swift는 매우 친절(?)해서 C나 C++에서와는 달리 자동으로 줄바꿈을 해주기 때문에 **하지 말라고** 말을 해줘야 줄바꿈을 하지 않는다.
+
+이때 `terminator` 명령어를 사용한다. 뜻 자체에서 알 수 있듯이 글자의 마지막을 어떻게 할 지 결정하라는 뜻이다.
+
+이를 사용해서 다시 출력해보면,
+~~~ swift
+let word = "Hello"
+for value in word {
+	print(value, terminator: " ")
+}
+
+// H e l l o
+~~~
+
+다음과 같이 원하는대로 출력됨을 알 수 있다.
+
 **다른 String Method**
 func hasPrefix(String) -> Bool
 
@@ -57,5 +96,5 @@ e.g. s.replaceSubrange(..<s.endIndex, with: "new contens")
 다음 예처럼 범위의 한쪽을 생략하면 자동으로 처음 또는 끝의 인덱스를 넣어준다. 하지만 그 타입을 추측가능할 때만 사용할 수 있다.
 
 
-
+참고: [CS193p](https://www.edwith.org/swiftapp/joinLectures/13694) 
 
