@@ -13,7 +13,7 @@ comments: true
 
 >공부하면서 익힌 내용을 정리하고 있습니다. 아직 부족한 부분이나 잘못된 부분이 있을 수 있으니, 있다면 댓글로 피드백 부탁드립니다.
 
-### String ?
+## String ?
 
 string은 unicode로 구성되어 있다. 유니코드는 전세계 모든 언어를 나타낼 수 있는데, 바이트 단위로 데이터를 나타낸다.
 
@@ -42,7 +42,7 @@ if let firstSpace = pizzaJoint.index(of: " ") {	// space가 없을 수도 있어
 pizzaJoint.components(separatedBy: " ")[1]
 ~~~
 
-### print String without newline
+## print String without newline
 
 print()를 통해서 문자열을 출력할 때 줄바꿈을 하지 않고 출력하고 싶을 때가 있다. 
 예를들어, "Hello" 라는 글자를 `H e l l o` 와 같이 출력하고 싶다면 어떻게 해야할까?
