@@ -18,11 +18,9 @@ comments: true
 
 다음 처럼 statusBar의 style을 바꾸려면 어떻게 해야할까?
 
-<figure >
-    <a href="../assets/img/posted/statusBar.png">
+<a href="../assets/img/posted/statusBar.png">
     <img src="../assets/img/posted/statusBar.png">
-    </a>
-</figure>
+</a>
 
 대표적으로 두 가지 경우가 있다.
 
