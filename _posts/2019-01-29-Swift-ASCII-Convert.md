@@ -5,8 +5,6 @@ date: 2019-01-28
 excerpt: "Swift Unicode Code Convert"
 tag:
 - swift
-- Algorithm
-- BOJ
 - 문자열 처리
 comments: true
 ---
@@ -84,7 +82,10 @@ extension StringProtocol {
 }
 ~~~
 
+관련 내용을 사용한 문제는 [BOJ11655](https://chelwoong.github.io/Algorithm-BOJ-11655/)를 풀어보자.
+
 참고
+
 [민소네님 블로그](http://minsone.github.io/mac/ios/swift-string-and-characters-summary)
 [Zedd님 블로그](https://zeddios.tistory.com/340)
 [stackoverflow](https://stackoverflow.com/questions/29835242/whats-the-simplest-way-to-convert-from-a-single-character-string-to-an-ascii-va)
