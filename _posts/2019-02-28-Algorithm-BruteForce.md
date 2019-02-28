@@ -23,7 +23,7 @@ comments: true
 9명의 난쟁이 중에서 진짜가 아닌 2명만 찾아내면 되는 문제이므로 9c2 = 36가지의 경우밖에 되지 않는다. 따라서 이런 경우에 완전 탐색으로 풀면된다.
 
  <details><summary>CLICK ME</summary>
- <p>
+<div markdown="1">
  
 ```c++	
 #include <iostream>
@@ -63,7 +63,7 @@ return  0;
 }
 ```
 
-</p>
+</div>
 </details>
 
 > 생각은 쉽지만 구현하는 것이 생각보다 쉽지는 않았다.. 아직은 많이많이 부족하다..
