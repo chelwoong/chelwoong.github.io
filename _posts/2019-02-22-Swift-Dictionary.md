@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Swift - Dictionary
-date: 2019-01-16
-excerpt: "Swift Dictionary"
+date: 2019-02-22
+excerpt: "Swift Dictionary 이해하기"
 tag:
 - ios
 - swift

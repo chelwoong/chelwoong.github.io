@@ -4,10 +4,10 @@ title: Algorithm-BurteForce
 date: 2019-02-28
 excerpt: "완전탐색 Brute Force"
 tag:
-- swift
+- C++
 - Algorithm
 - BOJ
-- 문자열 처리
+- BruteForce
 comments: true
 ---
 
@@ -22,7 +22,8 @@ comments: true
 
 9명의 난쟁이 중에서 진짜가 아닌 2명만 찾아내면 되는 문제이므로 9c2 = 36가지의 경우밖에 되지 않는다. 따라서 이런 경우에 완전 탐색으로 풀면된다.
 
- <details><summary>CLICK ME</summary>
+
+<details><summary>풀이보기</summary>
 <div markdown="1">
  
 ```c++	
@@ -62,7 +63,6 @@ for(int i=0; i< testCase; i++) {
 return  0;
 }
 ```
-
 </div>
 </details>
 
@@ -73,9 +73,13 @@ return  0;
 여러 문제를 풀며 연습해보자!
 
 [BOJ_2231: 분해합](https://www.acmicpc.net/problem/2309)
-
+<details><summary>풀이보기</summary>
+<div markdown="1">
+ 
+</div>
+</details>
 
 
 
 참고  
-https://kks227.blog.me/220769870195
+[BruteForce](https://kks227.blog.me/220769870195)
