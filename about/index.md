@@ -23,7 +23,7 @@ Myongji University Computer Engineering schedule, grade 4
 
 >_iOS_
 
-**[YoutubeClone](hhttps://github.com/chelwoong/YoutubeClone)** (2019.1 ~ )
+**[YoutubeClone](https://github.com/chelwoong/YoutubeClone)** (2019.01 ~ 02)
 - Youtube 구현하기
 - Swift, 
 - Personal Develop ([Brian Voong 강좌](https://www.youtube.com/watch?v=3Xv1mJvwXok&list=PL0dzCUj1L5JGKdVUtA5xds1zcyzsz7HLj))
@@ -66,13 +66,13 @@ Myongji University Computer Engineering schedule, grade 4
 **[Vote_lottery](https://github.com/sleak434/vote_lottery)** (2018.07)
 - 블록체인 
 
-**[Time_Manager](https://github.com/chelwoong/Time_Manager)** (2018.10)
+**[Time_Manager](https://github.com/chelwoong/Time_Manager)** (2018.9)
 - 근무시간 기록 프로그램
 - 전체 서비스 개발
 - Javascript, Chrome extention
 - [웹스토어 보러가기](https://chrome.google.com/webstore/detail/time-manager/fkeblohjdefejdpegoclmhcllgkdlflh?hl=ko)
 
-**Cafe With(Private Stroage)** (2018.07 ~ 2018.09)
+**Cafe With(Private Stroage)** (2018.07 ~ 2018.10)
 - Front-End 담당
 - React Native, AWS, Node.Js
 
@@ -80,3 +80,5 @@ Myongji University Computer Engineering schedule, grade 4
 
 - BlockChain Developer Bootcamp,  1st(2018.07.05~07)
 - 우정사업본부 빅데이터 2018 해커톤 (2018.12)
+- Naver TechConcert (2019.04.11)
+<img src="https://lh3.googleusercontent.com/450WFAiciUhpcaWBZFg-cbRiKR0mj6bfvuqEOA4Oy8o_582uMPaEVFd2UPrU9aKJOegb_n7t8LtuYSh6d9x_xCGzOkbZt36i8uKcByu763Me_B0uYF_Knaa0vLX-DgXt11BnHl4ua8E0BCQRqrhTooRETyLgZqcKGh0SH1BRwM5DCXYVONhn65llRtWUWbPu0bhW9QdZ256Dtw9Iok2GfMqSJiN2KPcQtqeWTwzgM_xx4pyf2MEnlQuuhlxODOhbZ7LAdEvW3CfH872YDdF0jPnytOTei65UhNBGR1A_g-zVndbohK4BoI3s1QfOqRWZ1msyZN-p3VXOLOuuA-f7RrrJk_82cIdRPnsN4clabclu-pIDWP8UUvu9XbK1H7Fozej33dpnsxQEbz9QSda8v6ypPptkpXN1G0QZVAJuPjqLfZ8YD5JAZioOdhkxXhanp2Qu2kjQgk_JTSaSQTWA6VR7o2DF8v4ryXb1J05Cfa3Msb2BPAQBQNBHR_yoE5-KfoO-cWfCyxXJgBquw6b-kwHp5_IuLtrZobtyzc49rDW_MV8uHa9DjkrLWvly8zymgwX_7Lnav7HLj0hvOPmTW2X8Sq9Rq-qeKzPVaiAUg5vZiZNSi9-C9y-lv5Ha51xRoz19XRXClKDiAI-MP-IErbqz-cPDFRk=w992-h1334-no" width="250"/>
